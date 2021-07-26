@@ -69,3 +69,25 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.space-around {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+}
+
+#parent {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+  margin-left: 35%;
+}
+
+.text-field {
+  width: 600px;
+  height: 50px;
+ 
+}
+
